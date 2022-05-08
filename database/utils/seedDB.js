@@ -28,13 +28,19 @@ const seedDB = async () => {
 	
 	// Create a new student for a campus
 	const dummy_student = await Student.create({
-		firstname: "Joe",
+	  firstname: "Joe",
       lastname: "Smith",
+	  email: "testemail",
+	  imgUrl: "https://t3.ftcdn.net/jpg/00/64/67/52/360_F_64675209_7ve2XQANuzuHjMZXP3aIYIpsDKEbF5dD.jpg",
+	  gpa: 3
 	});
 	// Create a new student for a campus
 	const dummy_student2 = await Student.create({
 		firstname: "Mary",
       lastname: "Johnson",
+	  email: "testemail2",
+	  imgUrl: "https://t3.ftcdn.net/jpg/00/64/67/52/360_F_64675209_7ve2XQANuzuHjMZXP3aIYIpsDKEbF5dD.jpg",
+	  gpa: 2	
 	});
 
 	// Add students to campuses
