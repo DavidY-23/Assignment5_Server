@@ -1,5 +1,8 @@
 # server-starter-code
-
+Group Members: David Ye <br>
+Github: https://github.com/DavidY-23
+<br>
+-----------------
 This repository is the server (back-end) starter code for Final Project (CRUD Application).
 
 ### Prerequisites
